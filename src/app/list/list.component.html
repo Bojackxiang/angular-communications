@@ -1,0 +1,11 @@
+<div class="thing-list">
+    <ul class="list-group">
+        <li class="list-group-item"
+        	*ngFor = "let item of dataGroup; let i = index;"
+        	(click)="onClick(item)"
+        >	
+        	{{item.title}} <====> {{item.content}}
+       	</li>
+
+	</ul>
+</div>

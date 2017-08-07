@@ -1,0 +1,25 @@
+.container{
+	padding-top:30px;
+}
+
+
+.thing-list{
+	width: 45%;
+	float: left;
+	margin-left: 2.5%;
+}
+
+
+.detail{
+	float: left;
+	margin-left: 5%;
+	width: 45%;
+	padding-left-left: 5%;
+	height: 20px;
+	background-color: lightblue;
+}
+
+
+.clean{
+	clear:both;
+}
